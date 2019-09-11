@@ -11,8 +11,8 @@
       h1 { font: 50px; font-family: 'Roboto Mono'; font-weight: thin; }
       #présentation { position : absolute; top : 150px; left: 700px; font-size: 25px; }
       
-      .bandeau { text-align: center; font-family: 'Roboto Mono'; font-weight: bold; letter-spacing: 2px; background: rgb(228, 228, 228); padding: 8px; padding-bottom: 25px; clear: both; }
-      .intro { background: white ; padding: 8px; }
+      .bandeau { text-align: center; font-family: 'Roboto Mono'; font-weight: bold; letter-spacing: 2px; background: rgb(228, 228, 228); padding: 15px; padding-bottom: 50px; clear: both; }
+      .intro { background: white ; padding: 15px; }
       
       table { margin-top: 80px; margin-bottom: 100px; border-bottom: 1px solid black; padding-bottom: 50px;}
       td { padding-right: 28px; padding-left: 28px; padding-top: 10px; padding-bottom: 5px; width: 370px; }
@@ -25,7 +25,8 @@
       a:focus { color: red; }
       a:hover { color: red; }
       a { font-family: 'Roboto Mono'; font-weight: bold; font-size: 25px; }
-      .link a:hover { opacity: 0,4; }
+      
+      .galerie { margin-top: 60px; margin-bottom: 60px; }
      
     </style>
   </head>
@@ -43,7 +44,7 @@
     <table>
       <thead>
         <tr>
-          <th><a class="link" href="#berga"><img src="vignette-berga.jpg" width="290px"></a></th>
+          <th><a href="#berga"><img src="vignette-berga.jpg" width="290px"></a></th>
           <th><a href="pépins"><img src="vignette-pépins.jpg" width="290px"></a></th>
           <th><a href="#lib"><img  src="vignette-lib.jpg" width="290px"></a></th>
         </tr>
@@ -67,15 +68,15 @@
         </tr>
     </table>
     
-    <div id="berga">
+    <div class="galerie" id="berga">
       <img src="berga.jpg" height="500px">
     </div>
     
-    <div id="pépins">
+    <div class="galerie" id="pépins">
       <img src="pépins.jpg" height="500px">
     </div>
   
-    <div id="lib">
+    <div class="galerie" id="lib">
       <img src="lib final noir.jpg" height="500px">
     </div>
    
