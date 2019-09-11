@@ -16,16 +16,15 @@
       
       table { margin-top: 80px; margin-bottom: 100px; border-bottom: 1px solid black; padding-bottom: 50px;}
       td { padding-right: 28px; padding-left: 28px; padding-top: 10px; padding-bottom: 5px; width: 370px; }
-      .item { letter-spacing: 1px }
-      .titre { letter-spacing: 2px; font-family: 'Roboto Mono'; clear: both; }
       #commanditaire { font-weight: bold; }
+      #demande { 
       
-      a:link { color: black; text-decoration: none; }
-      a:visited { color: black; text-decoration: none; }
-      a:active { color: red; }
-      a:focus { color: red; }
-      a:hover { color: red; }
-      a { font-family: 'Roboto Mono'; font-weight: bold; font-size: 25px; }
+      td a:link { color: black; text-decoration: none; }
+      td a:visited { color: black; text-decoration: none; }
+      td a:active { color: red; }
+      td a:focus { color: red; }
+      td a:hover { color: red; }
+      td a { font-family: 'Roboto Mono'; font-weight: bold; font-size: 25px; }
      
     </style>
   </head>
@@ -43,13 +42,13 @@
     <table>
       <thead>
         <tr>
-          <th><img src="vignette-berga.jpg" width="290px"></th>
+          <th><a href="#berga"><img src="vignette-berga.jpg" width="290px"></a></th>
           <th><img src="vignette-pépins.jpg" width="290px"></th>
           <th><img src="vignette-lib.jpg" width="290px"></th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr id="demande">
           <td>NAMING LOGOTYPE PACKAGINGS</td>
           <td>LOGOTYPE ILLUSTRATION CHARTE</td>
           <td>IDENTITÉ LOGOTYPE AFFICHES RÉSEAUX</td>
